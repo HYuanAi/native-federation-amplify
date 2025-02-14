@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { signIn, signOut } from 'aws-amplify/auth';
+import { signIn, signOut } from '@aws-amplify/auth';
 import { catchError, from, Observable, of, switchMap } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
